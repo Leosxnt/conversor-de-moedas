@@ -58,6 +58,7 @@ form {
     border-radius: 8px;
     width: 220px;
     height: 110px;
+    align-items: center;
 }
 
 #first-box input{
@@ -70,6 +71,35 @@ form {
     border-right-width: 0;
     border-left-width: 0;
     outline: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: #575757;
+}
+
+.flag {
+    display: flex;
+    max-width: 38px;
+    max-height: 32px;
+    margin-left: 16px;
+    align-items: center;
+}
+
+.flag-container p {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 6px;
+    color: #000000;
+    font-weight: bold;
+    align-items: center;
+}
+
+.input-coin {
+    display: flex;
+    color: #000;
+    font-weight: bold;
+    margin-left: 20px;
+    justify-content: baseline;
+    gap: 12px;
 }
 
 #second-box {
@@ -78,6 +108,7 @@ form {
     border-radius: 8px;
     width: 220px;
     height: 110px;
+    align-items: center;
 }
 
 #second-box input{
@@ -90,6 +121,9 @@ form {
     border-right-width: 0;
     border-left-width: 0;
     outline: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: #575757;
 }
 
 #inputs-container {
@@ -113,6 +147,12 @@ form {
     text-align: center;
     filter: drop-shadow(0.3rem 0.3rem 0.2rem rgba(0, 0, 0, 0.5));
     cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+#btn-converter:hover {
+    background-color: #80DF42;
+    transform: scale(1.05);
 }
 
 /* Input de baixo */

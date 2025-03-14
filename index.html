@@ -13,11 +13,27 @@
         <form>
             <div id="inputs-container">
                 <div id="first-box">
-                    <input type="text" name="fcoin" id="fcoin">
+                    <div class="flag-container">
+                        <img class="flag" src="/img/br_flag.jpg" alt="Bandeira do Brasil">
+                        <p>BRL</p>
+                    </div>
+                    <div class="input-coin">
+                        <p>R$</p>
+                        <input type="text" name="fcoin" id="fcoin">
+                    </div>
                 </div>
+
                     <img src="/img/seta.png" alt="trade">
+
                 <div id="second-box">
-                    <input type="text" name="scoin" id="scoin">
+                        <div class="flag-container">
+                            <img class="flag" src="/img/usa_flag.png" alt="Bandeira dos Estados Unidos">
+                            <p>USD</p>
+                        </div>
+                        <div class="input-coin">
+                            <p>$</p>
+                            <input type="text" name="scoin" id="scoin">
+                        </div>
                 </div>
             </div>
             <button id="btn-converter">Executar conversão</button>
